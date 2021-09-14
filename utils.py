@@ -344,7 +344,8 @@ def ANN_with_glove_architecture_2(input_shape, word_to_vec_map, word_to_index):
     embeddings = embedding_layer(sentence_indices)
     
     # Propagate the embeddings through a max pooling layer with default kernal
-    X = GlobalMaxPooling1D()(embeddings)
+    # X = GlobalMaxPooling1D()(embeddings)
+    X = Dropout(0.2)(embeddings)
     
     X = Flatten()(X)
     
