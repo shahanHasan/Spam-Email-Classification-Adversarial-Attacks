@@ -421,13 +421,13 @@ def RNN_with_glove_architecture_2(input_shape, word_to_vec_map, word_to_index):
     X = LSTM(128, return_sequences=True)(embeddings)
     
     # Add dropout with a probability of 0.5
-    X = Dropout(0.5)(X)
+    # X = Dropout(0.5)(X)
     
     # Propagate X trough another LSTM layer with 128-dimensional hidden state
     X = LSTM(128, return_sequences=False)(X)
     
     # Add dropout with a probability of 0.5
-    X = Dropout(0.5)(X)
+    X = Dropout(0.2)(X)
     
     # Propagate X through a Dense layer with relu activation to get back activation of next layer
     X = Dense(32, activation='relu')(X)
