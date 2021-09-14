@@ -344,8 +344,8 @@ def ANN_with_glove_architecture_2(input_shape, word_to_vec_map, word_to_index):
     embeddings = embedding_layer(sentence_indices)
     
     # Propagate the embeddings through a max pooling layer with default kernal
-    # X = GlobalMaxPooling1D()(embeddings)
-    X = Dropout(0.2)(embeddings)
+    X = GlobalMaxPooling1D()(embeddings)
+    X = Dropout(0.2)(X)
     
     # X = Flatten()(X)
     
@@ -355,20 +355,20 @@ def ANN_with_glove_architecture_2(input_shape, word_to_vec_map, word_to_index):
     # Propagate X through a Dense layer with relu activation to get back activation of next layer
     X = Dense(512, activation='relu')(X)
     
-    # Add dropout with a probability of 0.5
+    # # Add dropout with a probability of 0.5
     # X = Dropout(0.2)(X)
     
     # Propagate X through a Dense layer with sigmoid activation to get back activation of next layer
     X = Dense(256, activation='relu')(X)
     
-    # Add dropout with a probability of 0.5
-    X = Dropout(0.2)(X)
+    # # Add dropout with a probability of 0.5
+    # X = Dropout(0.2)(X)
     
     # Propagate X through a Dense layer with relu activation to get back activation of next layer
     X = Dense(128, activation='relu')(X)
     
-    # Add dropout with a probability of 0.5
-    X = Dropout(0.2)(X)
+    # # Add dropout with a probability of 0.5
+    # X = Dropout(0.2)(X)
     
     # Propagate X through a Dense layer with sigmoid activation to get back activation of next layer
     X = Dense(64, activation='relu')(X)
