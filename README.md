@@ -64,15 +64,15 @@
 
 ---
 
-![Methodology](alg\ 1.jpg)
+![Methodology](alg 1.jpg)
 2. **Fake Data Addition**
 
 ---
 
-![Methodology](alg\ 2.jpg)
+![Methodology](alg 2.jpg)
 ## Adversarial attacks defensive mechanism :
 1. **Application of KNN as Defence**
 
 ---
 
-![Methodology](alg\ 3.jpg)
+![Methodology](alg 3.jpg)
