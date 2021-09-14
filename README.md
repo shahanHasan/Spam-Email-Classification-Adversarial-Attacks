@@ -64,12 +64,12 @@
 
 ---
 
-![Algorithm 1 : Label Flipping](alg 1.png)
+![Algorithm 1 : Label Flipping](alg\ 1.png)
 2. **Fake Data Addition**
 
 ---
 
-![Algorithm 2 : Addition of Fauulty Data](alg 2.png)
+![Algorithm 2 : Addition of Fauulty Data](alg\ 2.png)
 ## Adversarial attacks defensive mechanism :
 1. **Application of KNN as Defence**
 
