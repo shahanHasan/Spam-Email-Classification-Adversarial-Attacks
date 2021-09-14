@@ -581,17 +581,17 @@ def CNN_with_glove_architecture_2(input_shape, word_to_vec_map, word_to_index):
     -------------------- '''
     X = Conv1D(activation="relu",filters=100, kernel_size=5, padding="valid")(embeddings)
     
+    # # Propagate the embeddings through a max pooling layer with default kernal
+    # X = GlobalMaxPooling1D())(X)
+    # # Add dropout with a probability of 0.2
+    # X = Dropout(0.2)(X)
+    
+    X = Conv1D(activation="relu",filters=100, kernel_size=5, padding="valid")(X)
+    
     # Propagate the embeddings through a max pooling layer with default kernal
     X = GlobalMaxPooling1D()(X)
-    # Add dropout with a probability of 0.2
-    X = Dropout(0.2)(X)
     
-    X = Conv1D(activation="relu",filters=100, kernel_size=4, padding="valid")(X)
-    
-    # Propagate the embeddings through a max pooling layer with default kernal
-    X = GlobalMaxPooling1D()(X)
-    
-    X = Flatten(X)
+    # X = Flatten(X)
     
     # Propagate X through a Dense layer with sigmoid activation to get back activation of next layer
     X = Dense(units = 64, activation='relu')(X)
