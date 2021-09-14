@@ -347,7 +347,7 @@ def ANN_with_glove_architecture_2(input_shape, word_to_vec_map, word_to_index):
     # X = GlobalMaxPooling1D()(embeddings)
     X = Dropout(0.2)(embeddings)
     
-    X = Flatten()(X)
+    # X = Flatten()(X)
     
     # Propagate X through a Dense layer with relu activation to get back activation of next layer
     X = Dense(1024, activation='relu')(X)
