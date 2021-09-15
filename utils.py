@@ -347,25 +347,25 @@ def ANN_with_glove_architecture_2(input_shape, word_to_vec_map, word_to_index):
     X = GlobalMaxPooling1D()(embeddings)
     X = Dropout(0.2)(X)
     
-    # X = Flatten()(X)
+    X = Flatten()(X)
     
     # Propagate X through a Dense layer with relu activation to get back activation of next layer
     X = Dense(1024, activation='relu')(X)
     
     # Propagate X through a Dense layer with relu activation to get back activation of next layer
-    X = Dense(512, activation='relu')(X)
+    # X = Dense(512, activation='relu')(X)
     
     # # Add dropout with a probability of 0.5
     # X = Dropout(0.2)(X)
     
     # Propagate X through a Dense layer with sigmoid activation to get back activation of next layer
-    X = Dense(256, activation='relu')(X)
+    # X = Dense(256, activation='relu')(X)
     
     # # Add dropout with a probability of 0.5
     # X = Dropout(0.2)(X)
     
     # Propagate X through a Dense layer with relu activation to get back activation of next layer
-    X = Dense(128, activation='relu')(X)
+    # X = Dense(128, activation='relu')(X)
     
     # # Add dropout with a probability of 0.5
     # X = Dropout(0.2)(X)
@@ -374,19 +374,19 @@ def ANN_with_glove_architecture_2(input_shape, word_to_vec_map, word_to_index):
     X = Dense(64, activation='relu')(X)
     
     # Add dropout with a probability of 0.5
-    #X = Dropout(0.2)(X)
+    X = Dropout(0.5)(X)
     
     # Propagate X through a Dense layer with relu activation to get back activation of next layer
     X = Dense(32, activation='relu')(X)
     
     # Add dropout with a probability of 0.5
-    #X = Dropout(0.2)(X)
+    X = Dropout(0.2)(X)
     
     # Propagate X through a Dense layer with sigmoid activation to get back activation of next layer
     X = Dense(16, activation='relu')(X)
     
     # Add dropout with a probability of 0.5
-    #X = Dropout(0.2)(X)
+    X = Dropout(0.2)(X)
     
     # Propagate X through a Dense layer with sigmoid activation to get back y_pred
     X = Dense(1, activation='sigmoid')(X)
