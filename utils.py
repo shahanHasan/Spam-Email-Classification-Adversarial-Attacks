@@ -68,7 +68,7 @@ def get_confusion_matrix_heatmap(y_test,y_pred,fName):
     fig = heatmap.get_figure()
     # save confusion matrix as image in results folder
     # fig.savefig('drive/MyDrive/SPAM classification deep learning/heatmaps/'+fName)
-    fig.savefig(f"heatmaps/{fName}")
+    fig.savefig(f"{fName}.jpeg")
     # display confusion matrix as numeric values
     print(CF)
 
@@ -90,7 +90,7 @@ def ROC_AUC(y_test, y_pred, fname):
     plt.title('Receiver Operating Characterisics')
     plt.legend(loc='lower right')
     # plt.savefig(f"drive/MyDrive/SPAM classification deep learning/Visuals/{fname}")
-    plt.savefig(f"Visuals/{fname}")
+    plt.savefig(f"{fname}.jpeg")
     return lr_auc
   
 # ANN - TSNE - word Embedding visualisations
@@ -120,7 +120,7 @@ def Word_Embeddings_visualise_TSNE(model, X, idx_to_word, fname, lname, lim1, li
         plt.annotate(label, xy=(x+1, y+1), xytext=(0, 0), textcoords='offset points', ha='right',
     va='bottom')
     # plt.savefig(f"drive/MyDrive/SPAM classification deep learning/Visuals/{fname}.jpeg")
-    plt.savefig(f"Visuals/{fname}.jpeg")
+    plt.savefig(f"{fname}.jpeg")
 
 
 
