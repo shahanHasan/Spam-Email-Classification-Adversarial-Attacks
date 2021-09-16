@@ -31,11 +31,11 @@
 
 ### Deep Learning Algorithms : 
 1. DNN ( with word Embeddings )
-2. CNN ( with word Embeddings )
+2. RNN ( with word Embeddings )
 3. CNN ( with word Embeddings )
 
 4. DNN ( with word Pretrained Glove Embeddings )
-5. CNN ( with word Pretrained Glove Embeddings )
+5. RNN ( with word Pretrained Glove Embeddings )
 6. CNN ( with word Pretrained Glove Embeddings )
 
 ### Feature Extraction techniques for Machine Learning Classifiers  : 
