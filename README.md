@@ -77,7 +77,7 @@
 
 
 
-### Algorithm 2-1 : Spam / Ham word Injection :
+### Algorithm 2-2 : Spam / Ham word Injection :
 
 ![Algorithm 2-2 : Augment emails with Ham or Spam words in a certain number of records indexed randomly and derived from a threshold / HAM or SPAM word Injection](alg-2-2.png)
 
