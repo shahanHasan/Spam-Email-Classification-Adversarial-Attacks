@@ -64,14 +64,24 @@
 
 ---
 
-![Algorithm 1 : Label Flipping](alg_1.png)
+![Algorithm 1 : Label Flipping](alg-1.png)
 
 
-2. **Fake Data Addition**
+2. **Sample Poisoning (Synonym Replacement, Spam / Ham word Injection**
 
 ---
 
-![Algorithm 2 : Addition of Fauulty Data](alg_2.png)
+### Algorithm 2-1 : Synonym Replacement : 
+
+![Algorithm 2-1 : Augment emails with synonyms in a certain number of records indexed randomly and derived from a threshold](alg-2-1.png)
+
+
+
+### Algorithm 2-1 : Spam / Ham word Injection :
+
+![Algorithm 2-2 : Augment emails with Ham or Spam words in a certain number of records indexed randomly and derived from a threshold / HAM or SPAM word Injection](alg-2-2.png)
+
+---
 
 ## Adversarial attacks defensive mechanism :
 
@@ -79,4 +89,4 @@
 
 ---
 
-![Algorithm 3 : Defence Mechanism](alg_3.png)
+![Algorithm 3 : Defence Mechanism](alg-3.png)
