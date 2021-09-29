@@ -83,7 +83,25 @@
 
 ---
 
-## Adversarial attacks defensive mechanism :
+# Adversarial Attacks on Deep Learning Models :
+1. **Fast Gradient Method (FGM)**
+
+---
+
+2. **Fast Gradient Sign Method (FGSM)**
+
+---
+
+3. **L2 Projected Gradient Descent (PGD)**
+
+---
+
+4. **Linf Projected Gradient Descent (LinfPGD)**
+
+---
+
+
+# Adversarial attacks defensive mechanism :
 
 3. **Application of KNN as Defence**
 
