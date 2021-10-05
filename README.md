@@ -103,7 +103,7 @@
 
 # Adversarial attacks defensive mechanism :
 
-3. **Application of KNN as Defence**
+1. **Application of KNN as Defence**
 
 ---
 
