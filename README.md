@@ -83,6 +83,12 @@
 
 ---
 
+### Algorithm 3 : Addition of new Poisoned Emails algorithm :
+
+![Algorithm 3: Addition of new Poisoned emails algorithm, Make new emails with randomly selected ham and spam words.](alg-3.png)
+
+---
+
 # Adversarial Attacks on Deep Learning Models :
 1. **Fast Gradient Method (FGM)**
 
@@ -107,4 +113,4 @@
 
 ---
 
-![Algorithm 3 : Defence Mechanism](alg-3.png)
+![Algorithm 4 : Defence Mechanism](alg-4.png)
