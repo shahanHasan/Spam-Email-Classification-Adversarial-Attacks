@@ -2,7 +2,7 @@
 *.odt
 *.zip
 *.txt
-
+tfidf.csv
 #Folders
 Datasets/
 ENRON_original/
