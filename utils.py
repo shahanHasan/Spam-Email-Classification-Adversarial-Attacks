@@ -472,13 +472,13 @@ def RNN_with_glove(input_shape, word_to_vec_map, word_to_index):
     embeddings = embedding_layer(sentence_indices)    
     
     # Propagate the embeddings through an LSTM layer with 128-dimensional hidden state
-    X = LSTM(128, return_sequences=True)(embeddings)
+    X = Bidirectional(LSTM(128, return_sequences=True))(embeddings)
     
     # Add dropout with a probability of 0.5
     X = Dropout(0.5)(X)
     
     # Propagate X trough another LSTM layer with 128-dimensional hidden state
-    X = LSTM(128, return_sequences=False)(X)
+    X = Bidirectional(LSTM(128, return_sequences=False))(X)
     
     # Add dropout with a probability of 0.5
     X = Dropout(0.5)(X)
