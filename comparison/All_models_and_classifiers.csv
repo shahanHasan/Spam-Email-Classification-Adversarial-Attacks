@@ -1,19 +1,19 @@
 Model,Precision,Recall,f1 score,Accuracy,ROC-AUC,Training time (sec)
-Ann with word embeddings,98.88,98.94,98.99,99.18,98.88,48.53
-Cnn with word embeddings,98.65,98.93,99.22,99.18,98.65,54.47
-XGBoost,98.44,98.98,98.71,99.0,98.98,10.97
-SVM (Linear),98.68,98.01,98.33,98.73,98.01,0.15
-SVM (RBF),98.79,97.89,98.33,98.73,97.89,10.24
-Rnn with word embeddings,97.89,98.33,98.79,98.73,97.89,119.11
-Cnn with GLOVE embeddings,97.99,97.88,97.77,98.36,97.99,942.53
-Rnn with GLOVE embeddings,97.75,97.64,97.54,98.18,97.75,3592.29
-Logistic Regr.,98.61,96.44,97.46,98.09,96.44,2.02
-MultinomialNB,98.51,95.63,96.96,97.73,95.63,0.01
-Gradient Boosting,97.87,96.2,96.99,97.73,96.2,24.85
-Rnn with GLOVE embeddings 2,96.3,96.78,97.28,97.54,96.3,4142.67
-Cnn with GLOVE embeddings 2,96.01,96.65,97.33,97.45,96.01,202.71
-Random Forest,98.08,94.87,96.34,97.27,94.87,3.64
-Decision Tree,95.87,94.59,95.21,96.36,94.59,1.63
-KNN,96.25,93.5,94.77,96.09,93.5,0.31
-Ann with GLOVE embeddings,91.09,88.1,86.23,90.17,91.09,806.91
-Ann with GLOVE embeddings 2,70.85,74.61,89.54,84.53,70.85,318.35
+Ann with word embeddings,0.9888,0.9894,0.9899,99.18,0.9888,48.53
+Cnn with word embeddings,0.9865,0.9893,0.9922,99.18,0.9865,54.47
+XGBoost,0.9844,0.9898,0.9871,99.0,0.9898,10.97
+SVM (Linear),0.9868,0.9801,0.9833,98.73,0.9801,0.15
+SVM (RBF),0.9879,0.9789,0.9833,98.73,0.9789,10.24
+Rnn with word embeddings,0.9789,0.9833,0.9879,98.73,0.9789,119.11
+Cnn with GLOVE embeddings,0.9799,0.9788,0.9777,98.36,0.9799,942.53
+Rnn with GLOVE embeddings,0.9775,0.9764,0.9754,98.18,0.9775,3592.29
+Logistic Regr.,0.9861,0.9644,0.9746,98.09,0.9644,2.02
+MultinomialNB,0.9851,0.9563,0.9696,97.73,0.9563,0.01
+Gradient Boosting,0.9787,0.962,0.9699,97.73,0.962,24.85
+Rnn with GLOVE embeddings 2,0.963,0.9678,0.9728,97.54,0.963,4142.67
+Cnn with GLOVE embeddings 2,0.9601,0.9665,0.9733,97.45,0.9601,202.71
+Random Forest,0.9808,0.9487,0.9634,97.27,0.9487,3.64
+Decision Tree,0.9587,0.9459,0.9521,96.36,0.9459,1.63
+KNN,0.9625,0.935,0.9477,96.09,0.935,0.31
+Ann with GLOVE embeddings,0.9109,0.881,0.8623,90.17,0.9109,806.91
+Ann with GLOVE embeddings 2,0.7085,0.7461,0.8954,84.53,0.7085,318.35
