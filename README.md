@@ -343,3 +343,17 @@
 |-- tfidf.csv
 `-- utils.py
 ```
+
+# Citation :
+
+"""
+@INPROCEEDINGS{9672398,
+  author={Hasan, Md. Mohidul and Zaman, Syed Mahbubuz and Talukdar, Md. Asif and Siddika, Ayesha and Rabiul Alam, Md. Golam},
+  booktitle={2021 IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI)}, 
+  title={An Analysis of Machine Learning Algorithms and Deep Neural Networks for Email Spam Classification using Natural Language Processing}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/SOLI54607.2021.9672398}}
+"""
