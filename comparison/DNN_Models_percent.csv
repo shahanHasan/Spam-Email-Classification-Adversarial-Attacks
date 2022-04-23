@@ -1,0 +1,10 @@
+Model,Precision,Recall,f1 score,Train Accuracy,Test Accuracy,Error,Loss,ROC-AUC,Train Time (s)
+Ann with word embeddings,0.9888,0.9894,0.9899,99.91,99.18,0.8189,0.0259,0.9888,48.53
+Cnn with word embeddings,0.9865,0.9893,0.9922,100.0,99.18,0.8189,0.0354,0.9865,54.47
+Rnn with word embeddings,0.9789,0.9833,0.9879,99.82,98.73,1.2739,0.0508,0.9789,119.11
+Cnn with GLOVE embeddings,0.9799,0.9788,0.9777,100.0,98.36,1.6379,0.6912,0.9799,942.53
+Rnn with GLOVE embeddings,0.9775,0.9764,0.9754,97.52,98.18,1.8198,0.0713,0.9775,3592.29
+Rnn with GLOVE embeddings 2,0.963,0.9678,0.9728,98.27,97.54,2.4568,0.0573,0.963,4142.67
+Cnn with GLOVE embeddings 2,0.9601,0.9665,0.9733,99.36,97.45,2.5478,0.1313,0.9601,202.71
+Ann with GLOVE embeddings,0.9109,0.881,0.8623,88.81,90.17,9.8271,0.2561,0.9109,806.91
+Ann with GLOVE embeddings 2,0.7085,0.7461,0.8954,81.3,84.53,15.4686,0.3412,0.7085,318.35
