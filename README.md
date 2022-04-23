@@ -45,7 +45,7 @@
 
 ### Feature Extraction techniques for Deep Learning Classifiers     : 
 **Word Embeddings ( Trainable ) and ( Non - Trainable : glove )** 
-
+##### The Glove Embedding Vectors must be downloaded from ![Stanford Webpage](https://nlp.stanford.edu/projects/glove/) and placed in the root directory for use.
 ---
 
 ### Metrics for Evaluation : 
@@ -346,7 +346,7 @@
 
 # Citation :
 
-"""
+```
 @INPROCEEDINGS{9672398,
   author={Hasan, Md. Mohidul and Zaman, Syed Mahbubuz and Talukdar, Md. Asif and Siddika, Ayesha and Rabiul Alam, Md. Golam},
   booktitle={2021 IEEE International Conference on Service Operations and Logistics, and Informatics (SOLI)}, 
@@ -356,4 +356,4 @@
   number={},
   pages={1-6},
   doi={10.1109/SOLI54607.2021.9672398}}
-"""
+```
